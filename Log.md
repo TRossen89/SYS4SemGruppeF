@@ -1,4 +1,6 @@
 
+#System ideas:
+
 - ”Kaffe-Vivino”
 
 - App, hvor chauffører kan beregne den hurtigste rute, når de skal levere cykler 
