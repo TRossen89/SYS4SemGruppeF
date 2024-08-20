@@ -5,7 +5,7 @@
 
 - Budget/+kvitteringsapp
 
-- LinkedIn for kreative fag, hvor man kan vise sit arbejde frem for virksomheder og personer der er interesseret i at betale for deres arbejde. For (billed)kunstnere, fotografer, forfattere, programmører etc.
+- LinkedIn for kreative fag, hvor man kan vise sit arbejde frem for virksomheder og personer der er interesseret i at betale for ens arbejde. For (billed)kunstnere, fotografer, forfattere, programmører etc.
 
 - Platform hvor virksomheder kan finde andre virksomheder, der kan leverer en ydelse eller et produkt virksomheden har brug for
 
