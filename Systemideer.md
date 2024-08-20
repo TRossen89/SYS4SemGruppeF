@@ -13,3 +13,5 @@
 
 - App hvor man kan scanne produkter i supermarkeder osv., og få informationer om indholdet af produkterne – for eksempel om det indeholder nødder, laktose etc., eller hvad hvor produktet er produceret og af hvem osv.
 
+- Andet?
+
