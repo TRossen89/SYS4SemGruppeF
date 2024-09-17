@@ -96,7 +96,7 @@
 - Given that I'm on the edit profile page
 - when I have filled out the required boxes 
 - then  
-  if I have pressed 'Save changes' the changes are saved and appears on my page and my page appears  
+  if I have pressed 'Save changes' the changes are saved and my page appears with the changes  
   if I have pressed 'Preview' a preview appears where I can press 'Back to edit', 'Save changes'  
   if I have left the edit profile page a message box appears saying "Are you sure want to leave without saving?"  
 
