@@ -60,38 +60,44 @@
 
 ## User stories
 
-### User story 1
+### US 1
 - As a (logged in) user
 - I want to be able to post a piece of work to my page
 - so that I can share my work with potential buyers and/or companies that have an interest in hiring
 ---
+### AC 1
 - Given that I am on the upload work page
 - when I have filled out the required boxes, so that the publish work button becomes active, and I have pressed 'publish work'
 - then a message box saying "are you sure you want to publish this?" appears, and then, if I press 'Yes', my work is posted on my page so that me and other users will be able to see my posted work on my page and a page with a succes message appears and if I press "No", the message box
   dissapears and I can edit in the boxes 
   or
 - then [some error handling: Appropriate error message]
+ ---
+ ---
 
-
-### User story 2
+### US 2
 - As a user
 - I want to be able to search for users and posted work
 - so that I can see a user's profile and different user's work
 ---
+### AC 2
 - Given that I'm on the webpage
 - when I have written something in the search bar
 - then a list of user's and a list of posted work appears if any user's name or any posted work titles mathces what has been written in the search bar
   or
 - then a message saying that no matches appears  
 
+---
+---
 
-
-### User story 3
+### US 3
 - As a user
 - I want to be able to customize my profile
 - so that I can make my profile personal and unique and show of my creative abilities
 
 --- 
+
+### AC 3
 
 - Given that I'm on the edit profile page
 - when I have filled out the required boxes 
@@ -100,29 +106,31 @@
   if I have pressed 'Preview' a preview appears where I can press 'Back to edit' or 'Save changes'  
   if I have left the edit profile page a message box appears saying "Are you sure want to leave without saving?"  
 
+---
+---
 
-
-### User story 4
+### US 4
 - As a user
 - I want to rate another user and be able to write a comment
 - so that I can participate in a collected/common evaluation of the user 
 
 --- 
-
+### AC 4
 - Given that I'm on a user's profile
 - when I have pressed any number of stars between 1 and 5
 - then a message box saying "Would you like to add a comment?" appears  and
 - then if I press 'Yes' a text box appears and then if I press 'Save' the comment is saved in the db
   or then if I press 'X' or 'No' the box dissapears
+---
+---
 
-
-### User story 5
+### US 5
 - As a user
 - I want to see the comments connected to the ratings of a user
 - so that I can get a more detalied picture of the quality of the user's work
    
  ---
-
+### AC 5
 - Given I am on a user's profile page
 - when I press 'See comments/reviews'
 - then a new page with a list of comments appears
