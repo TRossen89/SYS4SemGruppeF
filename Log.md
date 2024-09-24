@@ -205,11 +205,10 @@ ___
   1) if there are no problems, a message appears saying "Confirm job posting". If confirmed a page with 
   the message "Success! Job posted. Go to job posts?" appears and all that have been entered in the formular is stored 
   in the database (and the job post appears in the list of job posts at the page given that someone 
-  is on the job post page - could it be a user story by itself: As a user I want to see job posts?) 
-
+  is on the job post page - could it be a user story by itself: As a user I want to see job posts?)  
   If not confirmed the message box dissappears and the user can edit the boxes in the formular.  
 
-  2) if one or more boxes in the formular haven't been filled out, a message appears saying "Fill out all boxes"
+  3) if one or more boxes in the formular haven't been filled out, a message appears saying "Fill out all boxes"
    
 
 
