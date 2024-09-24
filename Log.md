@@ -192,7 +192,7 @@ ___
   2) Job description (Limit of characters: 4800)
   3) Image or video (Format: mp4 or jpeg)
   
-  If the limits in the parentheses are exceeded while writing, a message appears stating the limitations
+  If the limits in the parentheses are exceeded while writing, a message appears stating the limitations  
   If a wrong format for the image or video is chosen when uploading, a message appears stating the correct format
   
 
