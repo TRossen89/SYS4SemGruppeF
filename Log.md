@@ -140,56 +140,6 @@ ___
 - Given I am on a user's profile page
 - when I press 'See comments/reviews'
 - then a new page with a list of comments appears
----
----
-
-### US 8
-- As a (logged in) user
-- I want to be able to post something (picture with text... etc)
-- so that I can share my thoughts or achievements on the website to the public
-
----
-### AC 8
-- Given that I am on the post page
-- When I have added a photo, video and/or text and pressed post
-- Then the post will be uploaded and be public to all those on the feed
----
----
-
-### US 9
-- As a (logged in) user
-- I want to be able to create a group
-- so that I can gather likeminded people or discuss about a topic of interest with people within the same field
-
----
-### AC 9
-- Given that I am on the create group page
-- When I filled out the required information for the creation of the group and pressed the create button
-- Then a group will be created
-
-- Given that I am creating a group
-- When I selected the friends I want to add and press accept
-- Then the selected friends will be added to the group upon it's creation
----
----
-
-### US 10
-- As a (logged in) user
-- I want to be able to add friend(s)
-- so that I can add people I enjoy communicating with or work well together with as friends on the website
-
----
-### AC 10
-- Given that I am on a persons profile page
-- When I press on the add friend button on the profile
-- Then a friend request will be recieved by the relevant person
-
-- Given that I have sent a friend request
-- When the relevant person has accepted the friend request
-- Then the person and I have added each other as friends
-
-
-
 
 ___
 ___
@@ -258,6 +208,58 @@ ___
   If not confirmed the message box dissappears and the user can edit the boxes in the formular.  
 
   3) if one or more boxes in the formular haven't been filled out, a message appears saying "Fill out all boxes"
+
+
+___
+___
+___
+
+### US 8
+- As a (logged in) user
+- I want to be able to post something (picture with text... etc)
+- so that I can share my thoughts or achievements on the website to the public
+
+___
+### AC 8
+- Given that I am on the post page
+- When I have added a photo, video and/or text and pressed post
+- Then the post will be uploaded and be public to all those on the feed
+___
+___
+___
+
+### US 9
+- As a (logged in) user
+- I want to be able to create a group
+- so that I can gather likeminded people or discuss about a topic of interest with people within the same field
+
+___
+### AC 9
+- Given that I am on the create group page
+- When I filled out the required information for the creation of the group and pressed the create button
+- Then a group will be created
+
+- Given that I am creating a group
+- When I selected the friends I want to add and press accept
+- Then the selected friends will be added to the group upon it's creation
+___
+___
+___
+
+### US 10
+- As a (logged in) user
+- I want to be able to add friend(s)
+- so that I can add people I enjoy communicating with or work well together with as friends on the website
+
+___
+### AC 10
+- Given that I am on a persons profile page
+- When I press on the add friend button on the profile
+- Then a friend request will be recieved by the relevant person
+
+- Given that I have sent a friend request
+- When the relevant person has accepted the friend request
+- Then the person and I have added each other as friends
    
 
 
