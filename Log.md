@@ -74,7 +74,6 @@ ___
 - then [some error handling: Appropriate error message]
 ___
 ___
-___
 
 ### USER STORY 2
 - As a user
@@ -89,7 +88,6 @@ ___
   or
 - then a message saying that no matches appears  
 
-___
 ___
 ___
 
@@ -111,7 +109,6 @@ ___
 
 ___
 ___
-___
 
 ### USER STORY 4
 - As a user
@@ -128,7 +125,6 @@ ___
 
 ___
 ___
-___
 
 ### USER STORY 5
 - As a user
@@ -141,7 +137,6 @@ ___
 - when I press 'See comments/reviews'
 - then a new page with a list of comments appears
 
-___
 ___
 ___
 
@@ -172,7 +167,6 @@ ___
   when she is logged in and opens our message thread   
 
 
-___
 ___
 ___
 
@@ -212,9 +206,8 @@ ___
 
 ___
 ___
-___
 
-### US 8
+### USER STORY 8
 - As a (logged in) user
 - I want to be able to post something (picture with text... etc)
 - so that I can share my thoughts or achievements on the website to the public
@@ -226,37 +219,39 @@ ___
 - Then the post will be uploaded and be public to all those on the feed
 ___
 ___
-___
 
-### US 9
+### USER STORY 9
 - As a (logged in) user
 - I want to be able to create a group
 - so that I can gather likeminded people or discuss about a topic of interest with people within the same field
 
 ___
-### AC 9
+### AC 9.1
 - Given that I am on the create group page
 - When I filled out the required information for the creation of the group and pressed the create button
 - Then a group will be created
 
+___
+### AC 9.2
 - Given that I am creating a group
 - When I selected the friends I want to add and press accept
 - Then the selected friends will be added to the group upon it's creation
 ___
 ___
-___
 
-### US 10
+### USER STORY 10
 - As a (logged in) user
 - I want to be able to add friend(s)
 - so that I can add people I enjoy communicating with or work well together with as friends on the website
 
 ___
-### AC 10
+### AC 10.1
 - Given that I am on a persons profile page
 - When I press on the add friend button on the profile
 - Then a friend request will be recieved by the relevant person
 
+___
+### AC 10.2
 - Given that I have sent a friend request
 - When the relevant person has accepted the friend request
 - Then the person and I have added each other as friends
