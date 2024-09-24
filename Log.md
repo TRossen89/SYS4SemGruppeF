@@ -60,11 +60,11 @@
 
 ## User stories
 
-### US 1
+### USER STORY 1
 - As a (logged in) user
 - I want to be able to post a piece of work to my page
 - so that I can share my work with potential buyers and/or companies that have an interest in hiring
----
+___
 ### AC 1
 - Given that I am on the upload work page
 - when I have filled out the required boxes, so that the publish work button becomes active, and I have pressed 'publish work'
@@ -72,14 +72,16 @@
   dissapears and I can edit in the boxes 
   or
 - then [some error handling: Appropriate error message]
- ---
- ---
+___
+___
+___
 
-### US 2
+### USER STORY 2
 - As a user
 - I want to be able to search for users and posted work
 - so that I can see a user's profile and different user's work
----
+___
+
 ### AC 2
 - Given that I'm on the webpage
 - when I have written something in the search bar
@@ -87,15 +89,16 @@
   or
 - then a message saying that no matches appears  
 
----
----
+___
+___
+___
 
-### US 3
+### USER STORY 3
 - As a user
 - I want to be able to customize my profile
 - so that I can make my profile personal and unique and show of my creative abilities
 
---- 
+___
 
 ### AC 3
 
@@ -106,34 +109,110 @@
   if I have pressed 'Preview' a preview appears where I can press 'Back to edit' or 'Save changes'  
   if I have left the edit profile page a message box appears saying "Are you sure want to leave without saving?"  
 
----
----
+___
+___
+___
 
-### US 4
+### USER STORY 4
 - As a user
 - I want to rate another user and be able to write a comment
 - so that I can participate in a collected/common evaluation of the user 
 
---- 
+___
 ### AC 4
 - Given that I'm on a user's profile
 - when I have pressed any number of stars between 1 and 5
 - then a message box saying "Would you like to add a comment?" appears  and
 - then if I press 'Yes' a text box appears and then if I press 'Save' the comment is saved in the db
   or then if I press 'X' or 'No' the box dissapears
----
----
 
-### US 5
+___
+___
+___
+
+### USER STORY 5
 - As a user
 - I want to see the comments connected to the ratings of a user
 - so that I can get a more detalied picture of the quality of the user's work
    
- ---
+___
 ### AC 5
 - Given I am on a user's profile page
 - when I press 'See comments/reviews'
 - then a new page with a list of comments appears
+
+
+___
+___
+___
+
+### USER STORY 6
+- As a user
+- I want to be able to send direct, private messages to other users
+- so that I can communicate privately with other users of interest 
+
+___
+### AC 6.1.1
+- Given that I am on a users profile 
+- When I have pressed 'Send message' on a users profile (to write a messsage to that user)
+- Then a box appears with the receiver's name, a close [X] button, a box displaying messages sent,  
+  a text box for writing messages and a 'Send' button
+
+___
+### AC 6.1.2
+- Given that I am in my inbox (with a list of users I have a message thread with)
+- When I press on a user  
+- Then a box appears with the receiver's name, a close [X] button, a box displaying messages sent,  
+  a text box for writing messages and a 'Send' button
+
+___
+### AC 6.2
+- Given that I have written something in the text box
+- When I press 'Send' (to send what I have written)   
+- Then what I have written appears in the display of the text thread, and it appears in the receivers display  
+  when she is logged in and opens our message thread   
+
+
+___
+___
+___
+
+### USER STORY 7
+- As a user
+- I want to be able to create a job posting
+- so that I get job applications from artists that I can hire at my company or to do some work for me 
+
+___
+### AC 7.1
+- Given that I am logged in
+- When I press the 'Create job posting' button
+- Then a job posting page appears with a formular for creating a job post.  
+  The formular contains these boxes to fill out:
+  1) Title (Limit of characters: 50)
+  2) Job description (Limit of characters: 4800)
+  3) Image or video (Format: mp4 or jpeg)
+  
+  If the limits in the parentheses are exceeded while writing, a message appears stating the limitations
+  If a wrong format for the image or video is chosen when uploading, a message appears stating the correct format
+  
+
+___
+### AC 7.2
+- Given that I am on the job posting page
+- When I press 'Post job'
+- Then one of several things happens:
+
+  1) if there are no problems, a message appears saying "Confirm job posting". If confirmed a page with 
+  the message "Success! Job posted. Go to job posts?" appears and all that have been entered in the formular is stored 
+  in the database (and the job post appears in the list of job posts at the page given that someone 
+  is on the job post page - could it be a user story by itself: As a user I want to see job posts?) 
+
+  If not confirmed the message box dissappears and the user can edit the boxes in the formular.  
+
+  2) if one or more boxes in the formular haven't been filled out, a message appears saying "Fill out all boxes"
+   
+
+
 
 
   
