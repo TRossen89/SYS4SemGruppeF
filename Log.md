@@ -68,10 +68,12 @@ ___
 ### AC 1
 - Given that I am on the upload work page
 - when I have filled out the required boxes, so that the publish work button becomes active, and I have pressed 'publish work'
-- then a message box saying "are you sure you want to publish this?" appears, and then, if I press 'Yes', my work is posted on my page so that me and other users will be able to see my posted work on my page and a page with a succes message appears and if I press "No", the message box
-  dissapears and I can edit in the boxes 
+- then a message box saying "are you sure you want to publish this?" appears, and then  
+  if I press 'Yes', my work is posted on my page so that me and other users will be able to see my posted work on my page and a page with a succes message appears  
+  if I press "No", the message box dissapears and I can edit in the boxes 
   or
 - then [some error handling: Appropriate error message]
+
 ___
 ___
 
@@ -84,9 +86,9 @@ ___
 ### AC 2
 - Given that I'm on the webpage
 - when I have written something in the search bar
-- then a list of user's and a list of posted work appears if any user's name or any posted work titles mathces what has been written in the search bar
+- then a list of user's and a list of posted work appears if any user's name or any posted work titles matches what has been written in the search bar
   or
-- then a message saying that no matches appears  
+- then a message saying "no matches" appears  
 
 ___
 ___
@@ -105,7 +107,7 @@ ___
 - then  
   if I have pressed 'Save changes' the changes are saved and my page appears with the changes  
   if I have pressed 'Preview' a preview appears where I can press 'Back to edit' or 'Save changes'  
-  if I have left the edit profile page a message box appears saying "Are you sure want to leave without saving?"  
+  if I have left the edit profile page a message box appears saying "Are you sure you want to leave without saving?"  
 
 ___
 ___
@@ -119,9 +121,13 @@ ___
 ### AC 4
 - Given that I'm on a user's profile
 - when I have pressed any number of stars between 1 and 5
-- then a message box saying "Would you like to add a comment?" appears  and
-- then if I press 'Yes' a text box appears and then if I press 'Save' the comment is saved in the db
-  or then if I press 'X' or 'No' the box dissapears
+- then a message box saying "Would you like to add a comment?" appears and
+- then   
+  if I press 'Yes' (the message box dissapears and) a text box appears   
+    and then    
+    if I write in the text box and press 'Save' the comment appears in the list of comments
+    if I press [X] the text box dissapears and no comment will be saved 
+  if I press 'No' the message box dissapears 
 
 ___
 ___
@@ -142,7 +148,7 @@ ___
 
 ### USER STORY 6
 - As a user
-- I want to be able to send direct, private messages to other users
+- I want to be able to send direct private messages to other users
 - so that I can communicate privately with other users of interest 
 
 ___
@@ -181,9 +187,9 @@ ___
 - When I press the 'Create job posting' button
 - Then a job posting page appears with a formular for creating a job post.  
   The formular contains these boxes to fill out:
-  1) Title (Limit of characters: 50)
-  2) Job description (Limit of characters: 4800)
-  3) Image or video (Format: mp4 or jpeg)
+  1) Title (Text box - Limit of characters: 50)
+  2) Job description (Text box - Limit of characters: 4800)
+  3) Image or video (Upload button - Format: mp4 or jpeg)
   
   If the limits in the parentheses are exceeded while writing, a message appears stating the limitations  
   If a wrong format for the image or video is chosen when uploading, a message appears stating the correct format
@@ -201,7 +207,7 @@ ___
   is on the job post page - could it be a user story by itself: As a user I want to see job posts?)  
   If not confirmed the message box dissappears and the user can edit the boxes in the formular.  
 
-  3) if one or more boxes in the formular haven't been filled out, a message appears saying "Fill out all boxes"
+  2) if one or more boxes in the formular haven't been filled out, a message appears saying "Fill out all boxes"
 
 
 ___
@@ -256,12 +262,14 @@ ___
 - When the relevant person has accepted the friend request
 - Then the person and I have added each other as friends
    
-
-
-
-
   
+  
+# GLOSSARY
 
+- Message box: A box with a message appearing in the center of the screen in front of everything 
+- Text box: A box where you can write something in
+- Display: A box where something is displayed - you can't manipulate directly with what is displayed as in a text box
+- Feed: A box on a page where a list of posts from different users are shown (with the newest at the top)
  
 
 
