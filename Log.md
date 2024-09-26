@@ -268,7 +268,7 @@ ___
 
 - Message box: A box with a message appearing in the center of the screen in front of everything 
 - Text box: A box where you can write something in
-- Display: A box where something is displayed - you can't manipulate directly with what is displayed as in a text box
+- Display: A box where something is displayed - you can't directly manipulate what is displayed (as you can in a text box)
 - Feed: A box on a page where a list of posts from different users are shown (with the newest at the top)
  
 
